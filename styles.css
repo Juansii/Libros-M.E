@@ -1,0 +1,107 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.7;
+}
+
+#nav-link {
+  text-align: left;
+  position: fixed;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  border-right: solid;
+  border-color: rgba(51, 105, 105, 0.4);
+  margin-left: -40px;
+  border-bottom: solid;
+  background-color: rgb(229, 221, 231);
+}
+
+#nav-link a {
+  display: block;
+  padding: 5px 20px;
+  color: #1c2a6e;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#nav-link a:hover {
+  font-size: 18px;
+  font-weight: 600;
+  color: midnightblue;
+}
+
+.header {
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: rgb(185, 178, 179);
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+}
+
+.information {
+  text-decoration: none;
+  color: black;
+  margin-left: 0;
+}
+
+.main-section {
+  padding-top: 10px;
+  display: block;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#header-s {
+  font-size: 35px;
+  margin-right: 200px;
+  text-align: center;
+  color:midnightblue;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+#nav-link li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+}
+
+.references-p {
+  margin-top: -10px;
+}
+
+.references-a {
+  text-decoration: none;
+}
+
+.references-h {
+  color: black;
+  font-size: 30px;
+}
