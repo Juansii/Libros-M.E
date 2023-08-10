@@ -12,6 +12,6 @@ function mostrarImagen(imagen, segundos) {
 botones.forEach(function(boton) {
   boton.addEventListener("click", function() {
     let imagen = boton.querySelector("img"); // Encontrar la imagen dentro del botón
-    mostrarImagen(imagen, 2); // Mostrar la imagen durante 5 segundos
+    mostrarImagen(imagen, 2); // Mostrar la imagen durante 2 segundos
   });
 });
