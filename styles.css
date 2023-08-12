@@ -69,25 +69,6 @@ body {
   color: #fff2ff;
 }
 
-#contenedor .arriba {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  margin-top: 5px;
-  background: linear-gradient(to bottom, #e8e9ee, #9d95be);
-  color: linear-gradient(to bottom, #5b5c75, #1b1630);
-  border-radius: 50%;
-  align-items: center;
-  border: 2px solid gray;
-}
-
-
-#contenedor .arriba:hover {
-  font-size: 26px;
-}
 
 .main-section {
   margin-top: 20px;
@@ -151,7 +132,7 @@ button a {
 
 @media only screen and (max-width: 815px) {
   * {
-    font-size: 16px;
+    font-size: 18px;
   }
 
 
@@ -181,13 +162,30 @@ button a {
     margin-left: 0px;
     margin-top: 270px;
   }
-}
 
-@media only screen and (max-width: 815px) {
-  #contenedor {
-    margin-left: 0px;
+  #contenedor .arriba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 7px;
+    background: linear-gradient(to bottom, #e8e9ee, #9d95be);
+    color: linear-gradient(to bottom, #5b5c75, #1b1630);
+    border-radius: 50%;
+    align-items: center;
   }
 
+#contenedor {
+  margin-left: 0px;
+}
+}
+
+@media (min-width: 816px) {
+  .main-section .arriba {
+    display: none;
+  }
 }
 
 @media (max-width: 825px) {
