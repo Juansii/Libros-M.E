@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Pagina-de-documentacion-
+ 
+Bibliografía de Mariana Enriquez. 
+Lista lateral de información sobre su carrera y un listado de sus novelas, cuentos y relatos mitológicos. 
+El diseño representa la sobriedad que ella transmite a la hora de comunicar. 
+Función pequeña de JS que permite ver la tapa de los libros por unos segundos. 
+>>>>>>> 1a6820041983d2b6e7acae84e2c6cda8245049cf
