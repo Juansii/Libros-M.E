@@ -46,6 +46,7 @@ export default function Navbar() {
               <a href="/contact">Bibliografia</a>
             </li>
         </ul>
+        
       </div>
       </nav>
     );
