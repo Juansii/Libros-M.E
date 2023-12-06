@@ -19,7 +19,7 @@ function Footer(){
 						</div>
 						
 
-						<div class="bottom-logo-caption"  style = {{borderRight : "2px solid white", color : "white"}}>
+						<div class="bottom-logo-caption"  >
                         <img src="https://imgs.search.brave.com/0ptG3AU6d02EUJPtPoFWDIPiXj8IFtIzjQ1_Xb6nl34/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9lL2U1L01h/cmlhbmFfRW5yJUMz/JUFEcXVlel9lbl9s/YV9GZXJpYV9JbnRl/cm5hY2lvbmFsX2Rl/bF9MaWJyb19kZV9C/dWVub3NfQWlyZXMu/anBnLzUxMnB4LU1h/cmlhbmFfRW5yJUMz/JUFEcXVlel9lbl9s/YV9GZXJpYV9JbnRl/cm5hY2lvbmFsX2Rl/bF9MaWJyb19kZV9C/dWVub3NfQWlyZXMu/anBn" alt="instagram" />
                             <InfoBiografica biografia={ biografia.bibliografia }  /> 
 						</div>
