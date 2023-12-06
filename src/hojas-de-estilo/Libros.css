@@ -1,6 +1,5 @@
 .contenedor-principal {
   position: relative;
-  margin-left: 295px;
   padding: 10px;
   color: #fff2ff;
   line-height: 20px;
@@ -8,8 +7,14 @@
 
 .info-libros {
   padding-bottom: 25px;
+  padding: 2rem;
+  background-color: gray;
 }
 
 .titulo {
   margin-bottom: 15px;
+}
+.publicaciones {
+  margin-bottom: 15px;
+  font-weight: bold;
 }

@@ -11,7 +11,10 @@ const Libros = (props) => {
         <div className='info-libros' key={index}>
           <h2 className='titulo'>{libro.titulo}</h2>
           <p> {libro.sinopsis}</p>
-          <p>Año de publicación: {libro.añoPublicacion}</p>
+          <br />
+          <p className="publicacion">Año de publicación: {libro.añoPublicacion}</p>
+          <br />
+          <hr />
         </div>
       ))}
     </div>

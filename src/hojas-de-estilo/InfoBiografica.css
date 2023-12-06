@@ -1,8 +1,15 @@
 
 .info-biografia {
   position: relative;
-  margin-left: 295px;
   padding: 10px;
   color: #fff2ff;
   line-height: 20px;
+  background-color: gray;
+  padding-bottom: 25px;
+  padding: 2rem;
+}
+
+.encabezado {
+  margin-bottom: 15px;
+  margin-top: 15px;
 }

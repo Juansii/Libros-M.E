@@ -64,7 +64,7 @@ body {
 
 #contenedor {
   position: relative;
-  margin-left: 310px;
+  margin-left: 0;
   padding: 10px;
   color: #fff2ff;
 }
