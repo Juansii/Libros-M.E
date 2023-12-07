@@ -14,12 +14,8 @@ function App() {
     
 
       <InfoBiografica biografia={ biografia }  /> 
-   
 
-      
-
-      <BarraLateral 
-      />
+      <BarraLateral   />
 
       <Libros libros={librosData} />
     </div>

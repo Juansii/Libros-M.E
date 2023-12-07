@@ -10,9 +10,6 @@ function BarraLateral() {
     <div className='App'>
       <nav className='barra-lateral'>
         <header className='header'>Mariana Enriquez</header>
-        
-        <InfoBiografica 
-        />
         <ul>
           {libros.map((libro, index) => (
             <li className='casilla' key={index}>{libro}</li>

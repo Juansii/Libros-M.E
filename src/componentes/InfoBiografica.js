@@ -6,7 +6,7 @@ function InfoBiografica( props ) {
   const { biografia } = props;
   return(
     <div className="info-biografia">
-      <h3 className="encabezado">  </h3>
+      <h3 className="encabezado"> Biografía </h3>
       <p className="biografia-parrafo"> {biografia} </p>
     </div>
   );
