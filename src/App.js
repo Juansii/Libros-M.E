@@ -10,13 +10,8 @@ function App() {
 
   return (
     <div className='contenedor-central'>
-
-    
-
       <InfoBiografica biografia={ biografia }  /> 
-
       <BarraLateral   />
-
       <Libros libros={librosData} />
     </div>
   );
