@@ -1,0 +1,28 @@
+.contenedor-principal-tapa {
+  padding: 10px;
+}
+
+.contenedor-imagen {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente fila */
+  justify-content: space-around; /* Alinea los elementos al principio del contenedor */
+  align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
+  background-color: gray;
+}
+
+.tapa-libro {
+  margin: 10px;
+  box-sizing: border-box; /* Incluye el margen en el tamaño total del elemento */
+  flex: 0 0 calc(25% - 20px); /* Utiliza flex para especificar el tamaño del elemento */
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.tapa-libro img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+

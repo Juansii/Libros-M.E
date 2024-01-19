@@ -1,6 +1,5 @@
 import React from "react";
 import '../hojas-de-estilo/Libros.css'
-import { HiChevronDoubleUp } from "react-icons/hi2";
 
 const Libros = (props) => {
   const { libros } = props;
@@ -11,16 +10,14 @@ const Libros = (props) => {
         <div className='info-libros' key={index}>
           <h2 className='titulo'>{libro.titulo}</h2>
           <p> {libro.sinopsis}</p>
-          <p>Año de publicación: {libro.añoPublicacion}</p>
-          <button className="tapa"> tapa </button>
-          <button className="compra"> lo quiero  </button>
-          <a href="#navbar" class="arriba">
-          <HiChevronDoubleUp />
-      </a>
+          <br />
+          <p className="publicaciones">Año de publicación: {libro.añoPublicacion}</p>
+          <br />
+          <hr />
         </div>
       ))}
     </div>
   );
 };
 
-export default Libros;
+export default Libros; 

@@ -1,8 +1,31 @@
 
-.info-biografia {
+.contenedor-principal {
   position: relative;
-  margin-left: 295px;
   padding: 10px;
   color: #fff2ff;
-  line-height: 20px;
+}
+
+.encabezado {
+  padding-bottom: 1.4;
+}
+
+.info-biografia {
+  padding: 2rem;
+  background-color: gray;
+  overflow: hidden;
+
+}
+
+.mariana-enriquez {
+  height: 270px;
+  width: 300px;
+  float: left;
+  padding: 10px 10px 0 0;
+  padding-bottom: 10px;
+
+}
+
+.biografia-parrafo {
+  padding: 2rem;
+  line-height: 24px !important;
 }
